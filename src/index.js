@@ -1,10 +1,11 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //exercise 01
 // I have installed Node.js, TypeScript and VS Code on my computer.
 //-----------------------------------
 //exercise 02
-// const personeName = "Ahsan";
-// console.log(`Hello ${personeName}, would you like to learn some AI today?`);
+// const personeName1 = "Ahsan";
+// console.log(`Hello ${personeName1}, would you like to learn some AI today?`);
 //-----------------------------------
 //exercise 03
 // const personeName = "Ahsan";
@@ -36,15 +37,15 @@
 //exercise 09
 // const favoriteNumber = 1;
 // console.log(`My favorite number is ${favoriteNumber}.`);
-//-----------------------------------
+//--------.
+// ---------------------------
 //exercise 10
-// This program greets the user
 // const comment = 'Ahsan';
 // console.log(`Hello, ${comment}!`);
 //-----------------------------------
 //exercise 11
-// const names = ['Ahmed', 'Jawad', 'Hafiz', 'Zain'];
-// for (const name of names) {
+// const names1 = ['Ahmed', 'Jawad', 'Hafiz', 'Zain'];
+// for (const name of names1) {
 //   console.log(name);
 // }
 //-----------------------------------
@@ -61,30 +62,30 @@
 // }
 //-----------------------------------
 //exercise 14
-// const guestList = ['John', 'Jane', 'Smith'];
-// for (const guest of guestList) {
+// const guestList2 = ['John', 'Jane', 'Smith'];
+// for (const guest of guestList2) {
 //   console.log(`Dear ${guest}, you are invited to dinner. Please join us!`);
 // }
 //-----------------------------------
 //exercise 15
-// const guestList = ['John', 'Jane', 'Bob'];
+// const guestList1 = ['John', 'Jane', 'Bob'];
 // const guestCannotMakeIt = 'Jane';
 // const newGuest = 'Alice';
-// const index = guestList.indexOf(guestCannotMakeIt);
+// const index = guestList1.indexOf(guestCannotMakeIt);
 // if (index !== -1) {
-//   guestList[index] = newGuest;
+//   guestList1[index] = newGuest;
 // }
-// for (const guest of guestList) {
+// for (const guest of guestList1) {
 //   console.log(`Dear ${guest}, you are invited to dinner. Please join us!`);
 // }
 //-----------------------------------
 //exercise 16
-// const guestList = ['John', 'Jane', 'Bob'];
+// const guestListt = ['John', 'Jane', 'Bob'];
 // console.log('We found a bigger dinner table!');
-// guestList.unshift('Alice'); 
-// guestList.splice(Math.floor(guestList.length / 2), 0, 'Mike'); 
-// guestList.push('Lily'); 
-// for (const guest of guestList) {
+// guestListt.unshift('Alice'); 
+// guestListt.splice(Math.floor(guestListt.length / 2), 0, 'Mike'); 
+// guestListt.push('Lily'); 
+// for (const guest of guestListt) {
 //   console.log(`Dear ${guest}, you are invited to dinner. Please join us!`);
 // }
 //-----------------------------------
@@ -131,7 +132,25 @@
 // console.log(`You are inviting ${guests.length} people to dinner.`);
 //-----------------------------------
 //exercise 20
-const cities = ['Lahore', 'Karachi', 'Islamabad'];
-for (const city of cities) {
-    console.log(city);
-}
+// const cities = ['Lahore', 'Karachi', 'Islamabad'];
+// for (const city of cities) {
+//   console.log(city);
+// }
+//-----------------------------------
+//exercise 21
+// function city_country(city: string, country: string): string {
+//   return `${city}, ${country}`;
+// }
+// console.log(city_country('Lahore', 'Pakistan'));
+// console.log(city_country('New York', 'USA'));
+// console.log(city_country('Tokyo', 'Japan'));
+//-----------------------------------
+//exercise 22
+// let lastname: string = 'ahsan';
+// let fname: boolean = true;
+// console.log(lastname);
+// let number: number = 0;
+// while (number < 70) {
+//     number += 10;
+// }
+// console.log(number);
