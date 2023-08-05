@@ -53,7 +53,7 @@
 // numbers.forEach((num) => {
 //     console.log(num);
 // })
-//Arrays Methods
+// //Arrays Methods
 let numbers = [2, 4, 1, 5, 3];
 // // Sorting the array
 // numbers.sort();
