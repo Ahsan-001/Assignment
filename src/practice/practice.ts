@@ -1,12 +1,12 @@
-let x; //undefined
-console.log(x); // It returns that undefined value
 
+// let x; //undefined variable
+// console.log(x); // It returns that undefined value
 
 // let value = null;
-// console.log(value);
-// console.log(10 / 3); // It returns the result in floating integter
+// console.log(value); //It returns "null"
+// console.log(10 / 3); // It returns the result in floating integter 
 
-//? check type 
+//? check type of variable
 
 // let col = true;
 // console.log(typeof col);
@@ -40,10 +40,65 @@ console.log(x); // It returns that undefined value
 // // Using the Array<Type> syntax
 // let cities: Array<string> = ["Lahore, Peshawar, Multan"];
 
+// // Accessing array elements
 // let numbers: number[] = [1, 2, 3, 4, 5];
 // console.log(numbers[0]);
 // console.log(numbers[3]);
 // console.log(numbers.length);
+
+// // Modifying array elements
+// let numbers: number[] = [1, 2, 3, 4, 5];
+
+// numbers[2] = 3;
+// console.log(numbers);
+
+// numbers.push(6);
+// console.log(numbers);
+
+// numbers.pop();
+// console.log(numbers);
+
+// numbers.shift()
+// console.log(numbers);
+
+// numbers.unshift(0, 1)
+// console.log(numbers);
+
+
+
+// // Iterating over arrays
+// let numbers: number[] = [1, 2, 3, 4, 5];
+
+// //using a for loop
+// for (let i = 0; i < numbers.length; i++) {
+//     console.log(numbers[i]);
+// }
+
+// //Using forEach method
+// numbers.forEach((num) => {
+//     console.log(num);
+    
+// })
+
+
+
+// //Arrays Methods
+// let numbers: number[] = [2, 4, 1, 5, 3];
+
+// // Sorting the array
+// numbers.sort();
+// console.log(numbers);
+
+// // Reversing the array
+// numbers.reverse();
+// console.log(numbers);
+
+// // Slicing the array
+// let slicedNumbers = numbers.slice(-3, -1) 
+// console.log(slicedNumbers);
+
+
+
 
 
 
