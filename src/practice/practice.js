@@ -54,13 +54,45 @@
 //     console.log(num);
 // })
 // //Arrays Methods
-let numbers = [2, 4, 1, 5, 3];
+// let numbers: number[] = [2, 4, 1, 5, 3];
 // // Sorting the array
 // numbers.sort();
 // console.log(numbers);
 // // Reversing the array
 // numbers.reverse();
 // console.log(numbers);
-// Slicing the array
-let slicedNumbers = numbers.slice(-3, -1);
-console.log(slicedNumbers);
+// // Slicing the array
+// let slicedNumbers = numbers.slice(-3, -1) 
+// console.log(slicedNumbers);
+//? Loop
+// //for loop
+// for (let i = 1; i <= 5; i++) {
+//     console.log(i);
+//   }
+// //while loop  
+// let i1 = 1;
+// while (i1 <= 5) {
+//   console.log(i1);
+//   i1++;
+// }
+// //do-while loop
+// let i = 1;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 5);
+// // Using break
+// for (let i = 1; i <= 5; i++) {
+//     if (i === 3) {
+//       break;
+//     }
+//     console.log(i);  // Output: 1, 2
+//   }
+//   // Using continue
+//   for (let i = 1; i <= 5; i++) {
+//     if (i === 3) {
+//       continue;
+//     }
+//     console.log(i);   // Output: 1, 2, 4, 5
+//   }
+//! Class 04
