@@ -1,4 +1,3 @@
-
 // let x; //undefined variable
 // console.log(x); // It returns that undefined value
 
@@ -6,12 +5,12 @@
 // console.log(value); //It returns "null"
 // console.log(10 / 3); // It returns the result in floating integter 
 
-//? check type of variable
+//? ------------------- check type of variable -------------
 
 // let col = true;
 // console.log(typeof col);
 
-//? Operators
+//? -------------------- Operators ------------------------
 
 // let n1 = 10;
 // console.log(n1); //10
@@ -32,7 +31,7 @@
 // console.log(3+ + "3");
 
 
-//? Arrays
+//? ----------------------- Arrays ---------------------------------
 
 // // Using the Type[] syntax
 // let numbers: number[] = [1, 2, 3, 4, 5];
@@ -98,7 +97,7 @@
 // console.log(slicedNumbers);
 
 
-//? Loop
+//? ------------- Loop -------------------
 
 // //for loop
 // for (let i = 1; i <= 5; i++) {
@@ -128,7 +127,7 @@
 //   }
  
   
-//   // Using continue
+  // Using continue
 //   for (let i = 1; i <= 5; i++) {
 //     if (i === 3) {
 //       continue;
@@ -136,5 +135,43 @@
 //     console.log(i);   // Output: 1, 2, 4, 5
 //   }
 
-  
-//! Class 04
+//! ------------------- Class 04 -----------------------
+
+//? --------- JSON _ Javascript Object Notation -----------------
+
+// JSON syntax
+
+// const detail = {
+
+//     "name": "Ahsan",
+   
+//     "age": 24,
+   
+//     "gender": "male",
+// }
+
+// console.log(detail.name, detail.age, detail.gender);
+
+
+//! ------------------- Class 06-----------------------
+//import and export
+
+// import inquirer from "inquirer";
+
+// let answers = await inquirer.prompt([{
+//     name: "age",
+//     type: "number",
+//     message: "Enter your Age:"}
+// ]);
+
+// console.log("Insha Allah, in " + (60 - answers.age) + " years you will be 60 years old.");
+
+
+
+// let answers = await inquirer.prompt([{
+//     name: "age",
+//     type: "number",
+//     message: "Enter your Age:"}
+// ]);
+
+// console.log("Insha Allah, in " + (60 - answers.age) + " years you will be 60 years old.");
