@@ -50,7 +50,7 @@ function startCalculator() {
                   result = add(numbers);
                   break;
                 case '-':
-                  result = subtract(numbers);
+                  result = subtract(numbers) ;
                   break;
                 case '*':
                   result = multiply(numbers);
